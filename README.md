@@ -2,3 +2,4 @@
 As pastas nesse repositório estão destinadas para os respectivos módulos de estudo da graduação.
 
 ### Programas estudados (aka Pré-requisitos)
+

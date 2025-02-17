@@ -157,3 +157,42 @@ As arquiteturas de Big Data para FCDs devem ser altamente escaláveis e eficient
 
 ---
 ---
+# **Arquiteturas de Big Data para FCDs**
+
+## **Ferramentas para Coleta de Dados**
+- **Apache Kafka**  
+  - Plataforma distribuída de mensagens e streaming.  
+  - Funciona através de um sistema de tópicos onde mensagens são produzidas e consumidas.
+
+- **Apache Flume**  
+  - Criado pela Cloudera, projetado para coletar, agregar e mover grandes quantidades de dados.  
+  - Pode ser usado em conjunto com Kafka, formando a arquitetura conhecida como **Flafka**.
+
+### **Funcionamento Básico do Kafka**
+- Um **produtor** gera uma mensagem.
+- A mensagem é armazenada em um **tópico**.
+- Um **consumidor** lê e processa a mensagem armazenada.
+
+---
+
+## **Caso do LinkedIn**
+- **Problema**  
+  - O LinkedIn enfrentava dificuldades para comunicar diferentes pipelines e serviços.  
+  - A estrutura existente era complexa, com muitas conexões diretas entre serviços.
+
+- **Solução**  
+  - Criaram o **Kafka**, permitindo centralizar a comunicação entre os serviços.  
+  - Todos os serviços passaram a se comunicar por mensagens em tópicos do Kafka.
+
+- **Impacto**  
+  - O Kafka se tornou o **núcleo dos pipelines do LinkedIn**.  
+  - Processa cerca de **1,4 trilhão de mensagens** com **1.400 brokers**.  
+  - Possui alta escalabilidade e funciona de forma totalmente distribuída.  
+  - Suporta **particionamento** de dados para otimizar o processamento.
+
+---
+
+## **Conclusão**
+- **Apache Kafka e Flume são ferramentas fundamentais para arquiteturas de Big Data**.  
+- **A implementação do Kafka no LinkedIn resolveu problemas complexos de comunicação**, permitindo escalabilidade e eficiência no processamento de mensagens.
+
