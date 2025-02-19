@@ -205,7 +205,7 @@ As arquiteturas de Big Data para FCDs devem ser altamente escaláveis e eficient
 
 ---
 
-### **Introdução**
+## **Introdução**
 - O processamento de dados em tempo real é essencial para aplicações que exigem resposta imediata, como monitoramento de redes sociais, detecção de fraudes financeiras e IoT (Internet das Coisas).
 - Neste módulo, são abordadas duas ferramentas amplamente utilizadas para essa finalidade: **Apache Storm** e outras soluções de processamento contínuo.
 
@@ -262,3 +262,56 @@ A imagem abaixo ilustra o fluxo de processamento dentro do Apache Storm, destaca
 O **Apache Storm** é uma das ferramentas mais robustas para o processamento contínuo de fluxos de dados. Ele desempenha um papel fundamental em sistemas de Big Data que exigem **baixa latência, alta escalabilidade e confiabilidade**. Sua arquitetura modular permite integrar diferentes fontes de dados e realizar diversas transformações antes de armazenar ou repassar os resultados.
 
 *Outras ferramentas como Apache Flink e Spark Streaming também desempenham papéis similares, mas o Storm é amplamente reconhecido por sua arquitetura baseada em fluxos contínuos e processamento distribuído.*
+
+## **Apache Spark Streaming**
+
+### **O que é o Apache Spark Streaming?**
+- Extensão do **Apache Spark**, projetada para **processamento distribuído de dados em tempo real**.  
+- Desenvolvido pelo **AMPLab da Universidade da Califórnia, Berkeley**, com código aberto desde 2010 na **Apache Foundation**.  
+- Permite que aplicações em clusters **Hadoop** executem tarefas **até 100 vezes mais rápido na memória** e **10 vezes mais rápido em disco**.  
+- Suporta desenvolvimento em **Java, Scala e Python**.
+
+---
+
+## **Funcionamento do Spark Streaming**
+- Trabalha com a estrutura de **microbatches**, onde pequenos pacotes de dados são processados rapidamente.  
+- Esse modelo gera uma noção de **Real Time** ou **Near Real Time**, pois o processamento acontece em intervalos curtos.  
+- **Comparação com Apache Storm**:  
+  - **Storm** processa eventos **um a um**, conforme chegam.  
+  - **Spark Streaming** processa dados em **lotes pequenos (microbatches)**.  
+
+📌 **Arquitetura Comparativa**
+![Fluxo de Microbatches no Spark Streaming](https://spark.apache.org/docs/latest/img/structured-streaming-model.png)
+
+---
+
+## **Arquitetura de uma Aplicação com Spark Streaming**
+- **Fontes de dados (Streaming e estáticas)**  
+  - Kafka, Amazon Kinesis, Akka, Flume, etc.  
+  - Bancos de dados relacionais e NoSQL (MySQL, Cassandra, PostgreSQL, MongoDB).  
+- **Módulos do Spark Streaming**  
+  - **MLlib**: Treinamento de modelos de **Machine Learning** com dados ao vivo.  
+  - **Spark SQL**: Análises e consultas interativas com **DataFrames**.  
+- **Destinos de dados**  
+  - ElasticSearch, Cassandra, MemSQL, HBase, Kafka.
+
+---
+
+## **DStreams e Processamento por Janelas de Tempo**
+- O **fluxo de dados** no Spark Streaming ocorre através de **DStreams (Discretized Streams)**.  
+- DStreams podem ser processados de duas formas:  
+  1. **Microbatches fixos**: Pequenos pacotes de dados processados em intervalos curtos.  
+  2. **Janelas de tempo (Windowing)**: Permite acumular pacotes dentro de um intervalo maior antes do processamento.
+
+
+---
+
+
+## **Conclusão**
+
+O **Apache Storm** é uma ferramenta robusta para processamento contínuo de fluxos de dados, ideal para sistemas de Big Data que exigem **baixa latência, alta escalabilidade e confiabilidade**. Sua arquitetura modular permite integração com diversas fontes de dados e transformações antes de armazenar ou repassar resultados.   
+
+Enquanto isso, o **Apache Spark Streaming** se destaca no processamento distribuído de fluxos em **tempo real**, utilizando um modelo de **microbatches** que facilita operações analíticas em tempo real. Ambas as ferramentas são amplamente utilizadas, com o Storm sendo reconhecido por seu processamento contínuo e o Spark Streaming por sua abordagem baseada em lotes.
+
+---
+---
