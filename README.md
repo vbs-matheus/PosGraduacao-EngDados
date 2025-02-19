@@ -1,4 +1,4 @@
-# **Material de estudo da pós-graduação em Eng. de Dados - PUC Minas**
+# **Pós-graduação em Eng. de Dados | PUC Minas**
 As pastas nesse repositório estão destinadas para as respectivas disciplinas estudadas na graduação.
 
 ## Disciplinas Estudadas:
