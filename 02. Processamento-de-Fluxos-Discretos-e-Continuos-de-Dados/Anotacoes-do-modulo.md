@@ -241,12 +241,12 @@ A arquitetura do Storm é composta por dois principais componentes:
 - Os **Spouts** enviam os dados para os **Bolts**.
 - Os **Bolts** processam os dados em tempo real, transformando-os conforme necessário.
 - O resultado final pode ser armazenado ou enviado para outros sistemas.
-
+**
 #### **Exemplo de Arquitetura do Apache Storm**
 A imagem abaixo ilustra o fluxo de processamento dentro do Apache Storm, destacando os Spouts (fontes de dados) e os Bolts (unidades de processamento):
 
 📌 **Referência Visual da Arquitetura do Storm**:  
-![Arquitetura do Apache Storm](https://storm.apache.org/images/storm-flow.png)
+![Arquitetura do Apache Storm](https://raw.githubusercontent.com/vbs-matheus/PosGraduacao-EngDados/refs/heads/main/02.%20Processamento-de-Fluxos-Discretos-e-Continuos-de-Dados/imgs/Arquitetura-Storm.png)
 
 ---
 
@@ -281,7 +281,7 @@ O **Apache Storm** é uma das ferramentas mais robustas para o processamento con
   - **Spark Streaming** processa dados em **lotes pequenos (microbatches)**.  
 
 📌 **Arquitetura Comparativa**
-![Fluxo de Microbatches no Spark Streaming](https://spark.apache.org/docs/latest/img/structured-streaming-model.png)
+![Fluxo de Microbatches no Spark Streaming](https://raw.githubusercontent.com/vbs-matheus/PosGraduacao-EngDados/refs/heads/main/02.%20Processamento-de-Fluxos-Discretos-e-Continuos-de-Dados/imgs/microbatches-SparkStreaming.jpg)
 
 ---
 
@@ -504,9 +504,9 @@ A ingestão **real-time** permite a coleta e processamento contínuo de dados à
 - **Elimina a necessidade de Batch Processing**.
 - Simplifica a **gestão, infraestrutura e código**.
 
-📌**Comparação entre arquiteturas**
-![Arquitetura Lambda](https://media.geeksforgeeks.org/wp-content/uploads/20240117220316/Layer-of-Lambda-Architecture.jpg)
-![Arquitetura Kappa](https://www.kai-waehner.de/wp-content/uploads/2021/09/Kappa-Architecture-with-one-Pipeline-for-Real-Time-and-Batch-1024x442.png)
+📌**Comparação entre arquiteturas Lambda e Kappa:**
+![Arquitetura Lambda](https://raw.githubusercontent.com/vbs-matheus/PosGraduacao-EngDados/refs/heads/main/02.%20Processamento-de-Fluxos-Discretos-e-Continuos-de-Dados/imgs/Arquitetura-Lambda.jpg)
+![Arquitetura Kappa](https://raw.githubusercontent.com/vbs-matheus/PosGraduacao-EngDados/refs/heads/main/02.%20Processamento-de-Fluxos-Discretos-e-Continuos-de-Dados/imgs/Arquitetura-Kappa.png)
 
 ---
 
@@ -561,7 +561,7 @@ Os dados podem vir de diversas fontes, incluindo:
    - Área onde os dados são disponibilizados para **analistas, pesquisadores e cientistas de dados**.
 
 📌 
-![Fluxo da Ingestão no Data Lake](https://dataladder.com/wp-content/uploads/2021/09/5066752-screen-shot-2017-04-24-at-111511-am-3783ixy9uk06tqzjcrmi2o.png)
+![Fluxo da Ingestão no Data Lake](https://raw.githubusercontent.com/vbs-matheus/PosGraduacao-EngDados/refs/heads/main/02.%20Processamento-de-Fluxos-Discretos-e-Continuos-de-Dados/imgs/FluxoIngestao-DataLake.png)
 ---
 
 ### **Governança e Qualidade dos Dados**
@@ -642,6 +642,7 @@ Cada abordagem possui suas vantagens e desafios, sendo essencial escolher a estr
   - **Consumer:** Leitor das mensagens armazenadas nos tópicos.
   - **Zookeeper:** Coordena e gerencia o estado do cluster Kafka.
 
+📌![Arquitetura Kafka](https://raw.githubusercontent.com/vbs-matheus/PosGraduacao-EngDados/refs/heads/main/02.%20Processamento-de-Fluxos-Discretos-e-Continuos-de-Dados/imgs/Arquitetura-Kafka.png)
 ---
 
 ### Tópico
@@ -700,3 +701,4 @@ Cada abordagem possui suas vantagens e desafios, sendo essencial escolher a estr
 - Pode ser configurado **por tópico**.
 - Permite **cleanup baseado em espaço**.
 
+### [Anotações da Aula Prática de Kafka](https://github.com/vbs-matheus/PosGraduacao-EngDados/blob/main/02.%20Processamento-de-Fluxos-Discretos-e-Continuos-de-Dados/aulas-praticas/kafka-codes-docker.md)
