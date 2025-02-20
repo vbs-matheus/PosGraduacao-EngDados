@@ -619,3 +619,84 @@ A escolha do tipo de ingestão de dados depende dos requisitos de latência, esc
 - **Arquitetura Kappa:** Mais simplificada e eficiente para ingestão em tempo real.
 
 Cada abordagem possui suas vantagens e desafios, sendo essencial escolher a estratégia correta para garantir eficiência no processamento e análise de dados.
+
+## Apache Kafka
+
+### O que é o Kafka?
+- Plataforma de streaming distribuído para processamento de eventos em tempo real.
+- **Principais características:**
+  - Baixa latência na entrega de mensagens.
+  - Suporte para múltiplos clientes (Java, .NET, PHP, Ruby, Python).
+  - Escrita e leitura em memória para performance otimizada.
+  - Persistência dos dados em disco.
+  - Integração nativa com ferramentas como Nifi e Spark Streaming.
+
+---
+
+### Arquitetura do Kafka
+- **Principais componentes:**
+  - **Producer:** Envia mensagens para um tópico dentro do Kafka.
+  - **Broker:** Servidor Kafka responsável por armazenar e distribuir mensagens.
+  - **Topic:** Estrutura de armazenamento de mensagens organizadas em logs.
+  - **Partition:** Subdivisão dos tópicos para escalabilidade.
+  - **Consumer:** Leitor das mensagens armazenadas nos tópicos.
+  - **Zookeeper:** Coordena e gerencia o estado do cluster Kafka.
+
+---
+
+### Tópico
+- Armazena mensagens em logs.
+- Suporta múltiplos assinantes (zero, um ou mais consumidores).
+- É dividido em **partições** para aumentar a escalabilidade.
+- Registros são retidos por um período configurável.
+
+---
+
+### Partição
+- Cada partição é um **log ordenado e imutável**.
+- Cada registro recebe um identificador único chamado **offset**.
+- Partições são distribuídas pelos servidores Kafka.
+- Possuem replicação para tolerância a falhas.
+
+---
+
+### Broker
+- Instância do Kafka dentro de um cluster.
+- Cada Broker pode conter múltiplas partições de diferentes tópicos.
+- Equilibra a carga entre os consumidores.
+- Usa **ZooKeeper** para manter estado e gerenciar os nós do cluster.
+- Pode lidar com **milhares de leituras e gravações por segundo** sem perda de desempenho.
+
+---
+
+### Producer
+- Publica mensagens nos tópicos do Kafka.
+- Escolhe em qual **tópico** os dados serão escritos.
+- Distribui automaticamente mensagens conforme a disponibilidade dos Brokers.
+- Escalável conforme o número de partições aumenta.
+
+---
+
+### Consumer
+- Lê mensagens dos tópicos do Kafka.
+- Pode se **inscrever** em um ou mais tópicos.
+- Mantém controle das mensagens lidas via **offset**.
+- Pode buscar mensagens de forma assíncrona.
+
+---
+
+### ZooKeeper
+- Gerencia metadados do cluster Kafka.
+- Coordena comunicação entre **Brokers e Consumers**.
+- Ajuda na **eleição de liderança** entre os Brokers.
+- Sincroniza a configuração do Kafka.
+
+---
+
+### Retenção
+- Kafka **armazena dados em disco** por um período configurável.
+- **Padrão:** 7 dias de retenção.
+- Mensagens são excluídas após expiração.
+- Pode ser configurado **por tópico**.
+- Permite **cleanup baseado em espaço**.
+
