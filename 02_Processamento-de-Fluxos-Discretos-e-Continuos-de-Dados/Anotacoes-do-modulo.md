@@ -246,7 +246,7 @@ A arquitetura do Storm é composta por dois principais componentes:
 A imagem abaixo ilustra o fluxo de processamento dentro do Apache Storm, destacando os Spouts (fontes de dados) e os Bolts (unidades de processamento):
 
 📌 **Referência Visual da Arquitetura do Storm**:  
-![Arquitetura do Apache Storm](https://raw.githubusercontent.com/vbs-matheus/PosGraduacao-EngDados/imgs/Arquitetura-Storm.png)
+![Arquitetura do Apache Storm](https://raw.githubusercontent.com/vbs-matheus/PosGraduacao-EngDados/refs/heads/main/imgs/Arquitetura-Storm.png)
 
 ---
 
@@ -281,7 +281,7 @@ O **Apache Storm** é uma das ferramentas mais robustas para o processamento con
   - **Spark Streaming** processa dados em **lotes pequenos (microbatches)**.  
 
 📌 **Arquitetura Comparativa**
-![Fluxo de Microbatches no Spark Streaming](https://raw.githubusercontent.com/vbs-matheus/PosGraduacao-EngDados/imgs/microbatches-SparkStreaming.jpg)
+![Fluxo de Microbatches no Spark Streaming](https://raw.githubusercontent.com/vbs-matheus/PosGraduacao-EngDados/refs/heads/main/imgs/microbatches-SparkStreaming.jpg)
 
 ---
 
@@ -505,8 +505,8 @@ A ingestão **real-time** permite a coleta e processamento contínuo de dados à
 - Simplifica a **gestão, infraestrutura e código**.
 
 📌**Comparação entre arquiteturas Lambda e Kappa:**
-![Arquitetura Lambda](https://raw.githubusercontent.com/vbs-matheus/PosGraduacao-EngDados/imgs/Arquitetura-Lambda.jpg)
-![Arquitetura Kappa](https://raw.githubusercontent.com/vbs-matheus/PosGraduacao-EngDados/imgs/Arquitetura-Kappa.png)
+![Arquitetura Lambda](https://raw.githubusercontent.com/vbs-matheus/PosGraduacao-EngDados/refs/heads/main/imgs/Arquitetura-Lambda.jpg)
+![Arquitetura Kappa](https://raw.githubusercontent.com/vbs-matheus/PosGraduacao-EngDados/refs/heads/main/imgs/Arquitetura-Kappa.png)
 
 ---
 
@@ -561,7 +561,7 @@ Os dados podem vir de diversas fontes, incluindo:
    - Área onde os dados são disponibilizados para **analistas, pesquisadores e cientistas de dados**.
 
 📌 
-![Fluxo da Ingestão no Data Lake](https://raw.githubusercontent.com/vbs-matheus/PosGraduacao-EngDados/imgs/FluxoIngestao-DataLake.png)
+![Fluxo da Ingestão no Data Lake](https://raw.githubusercontent.com/vbs-matheus/PosGraduacao-EngDados/refs/heads/main/imgs/FluxoIngestao-DataLake.png)
 ---
 
 ### **Governança e Qualidade dos Dados**
@@ -642,7 +642,7 @@ Cada abordagem possui suas vantagens e desafios, sendo essencial escolher a estr
   - **Consumer:** Leitor das mensagens armazenadas nos tópicos.
   - **Zookeeper:** Coordena e gerencia o estado do cluster Kafka.
 
-📌![Arquitetura Kafka](https://raw.githubusercontent.com/vbs-matheus/PosGraduacao-EngDados/imgs/Arquitetura-Kafka.png)
+📌![Arquitetura Kafka](https://raw.githubusercontent.com/vbs-matheus/PosGraduacao-EngDados/refs/heads/main/imgs/Arquitetura-Kafka.png)
 ---
 
 ### Tópico
