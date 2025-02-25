@@ -1,3 +1,4 @@
+![Brasão da PUC Minas](https://raw.githubusercontent.com/vbs-matheus/PosGraduacao-EngDados/imgs/PucMinas-brasao.png)
 # **Pós-graduação em Eng. de Dados | PUC Minas**
 As pastas nesse repositório estão destinadas para as respectivas disciplinas estudadas na graduação.
 
