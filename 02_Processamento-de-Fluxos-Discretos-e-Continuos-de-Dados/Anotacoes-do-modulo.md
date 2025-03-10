@@ -5,7 +5,7 @@ Abordaremos os conceitos sobre fluxos contínuos de dados, IoT, IPV6 e outros. V
 ---
 ---
 
-## **Revisão Rápida - Big Data: Os 4 V’s**
+# **Revisão Rápida - Big Data: Os 4 V’s**
 
 Os dados gerados no mundo seguem quatro principais características, conhecidas como os **4 V’s do Big Data**:
 
@@ -35,7 +35,7 @@ Big Data é um conceito essencial para tecnologias de **Processamento de Fluxos 
 ---
 ---
 
-## **Fluxos Contínuos de Dados – O que é?**
+# **Fluxos Contínuos de Dados – O que é?**
 
 - Dados fluem continuamente ao longo do tempo.
 - Chamados de **Fluxos Contínuos de Dados (Data Streams)** ou **FCDs**.
@@ -70,7 +70,7 @@ O processamento de Fluxos Contínuos de Dados é essencial para cenários onde *
 ---
 ---
 
-## **Fluxos Contínuos de Dados e a Internet das Coisas (IoT)**
+# **Fluxos Contínuos de Dados e a Internet das Coisas (IoT)**
 
 ### O que é a Internet das Coisas (IoT)?
 - A **Internet das Coisas (IoT)** é uma revolução tecnológica que conecta dispositivos físicos à internet.
@@ -87,7 +87,7 @@ A IoT expande a conectividade para objetos do dia a dia, transformando-os em **f
 
 ---
 ---
-## **Características de Algoritmos e Desafios**
+# **Características de Algoritmos e Desafios**
 
 ### **Características desejáveis para algoritmos**
 - Devem ser capazes de **se adaptar a novos dados** continuamente.
@@ -117,7 +117,7 @@ Os desafios do processamento de Fluxos Contínuos de Dados exigem **algoritmos a
 ---
 ---
 
-## **Arquiteturas de Big Data para Fluxos Contínuos de Dados (FCDs)**
+# **Arquiteturas de Big Data para Fluxos Contínuos de Dados (FCDs)**
 
 ### **Definição de Arquitetura para FCDs**
 Uma arquitetura eficiente para o processamento de **Fluxos Contínuos de Dados (FCDs)** deve atender a grandes demandas de volume, velocidade e variedade. O desenvolvimento de uma arquitetura eficaz requer a adoção de alguns passos fundamentais:
@@ -139,12 +139,12 @@ O fluxo de trabalho em arquiteturas de Big Data para FCDs geralmente segue um mo
 ### **Ferramentas para Ingestão de Dados**
 Para lidar com a ingestão de grandes volumes de dados em tempo real, diversas ferramentas são utilizadas. Uma das principais abordadas foi o **Apache Flume**.
 
-#### **Apache Flume**
+## **Apache Flume**
 - Criado pela **Cloudera**, o **Flume** é um sistema distribuído e confiável para **coletar, agregar e transferir grandes volumes de dados**.
 - Utilizado para mover dados de múltiplas fontes para armazenamento centralizado ou sistemas de mensageria.
 - Em 2012, tornou-se um projeto **top level da Apache Foundation**.
 
-#### **Arquitetura do Flume**
+### **Arquitetura do Flume**
 A estrutura do Flume é baseada em três componentes principais:
 1. **Source:** Captura dados de diferentes fontes (web servers, logs, eventos).
 2. **Channel:** Armazena temporariamente os dados antes do processamento.
@@ -156,10 +156,8 @@ A estrutura do Flume é baseada em três componentes principais:
 As arquiteturas de Big Data para FCDs devem ser altamente escaláveis e eficientes, garantindo ingestão contínua, processamento distribuído e armazenamento otimizado. Ferramentas como o **Apache Flume** são fundamentais para a ingestão de dados em tempo real, permitindo que empresas lidem com grandes volumes de informações de maneira estruturada.
 
 ---
----
-## **Arquiteturas de Big Data para FCDs**
 
-### **Ferramentas para Coleta de Dados**
+# **Ferramentas para Coleta de Dados**
 - **Apache Kafka**  
   - Plataforma distribuída de mensagens e streaming que armazena temporariamente grandes volumes de dados de streams antes que eles sejam processados. Ele atua como um *buffer*, permitindo que sistemas consumidores processem os dados conforme sua capacidade, evitando perda de informações em casos de sobrecarga.  
   - Funciona através de um sistema de tópicos onde mensagens são produzidas e consumidas.
@@ -170,14 +168,13 @@ As arquiteturas de Big Data para FCDs devem ser altamente escaláveis e eficient
   - Atua na etapa de **ingestão de dados**, sendo responsável por trazer os dados para o pipeline de processamento e armazenamento de Big Data.
   - Pode ser usado em conjunto com Kafka, formando a arquitetura conhecida como **Flafka**.
 
-#### **Funcionamento Básico do Kafka**
+### **Funcionamento Básico do Kafka**
 - Um **produtor** gera uma mensagem.
 - A mensagem é armazenada em um **tópico**.
 - Um **consumidor** lê e processa a mensagem armazenada.
 
----
 
-### **Caso do LinkedIn**
+#### **Caso do LinkedIn**
 - **Problema**  
   - O LinkedIn enfrentava dificuldades para comunicar diferentes pipelines e serviços.  
   - A estrutura existente era complexa, com muitas conexões diretas entre serviços.
@@ -201,9 +198,7 @@ As arquiteturas de Big Data para FCDs devem ser altamente escaláveis e eficient
 ---
 ---
 
-## **Ferramentas para Processamento de Dados em Tempo Real**
-
----
+# **Ferramentas para Processamento de Dados em Tempo Real**
 
 ### **Introdução**
 - O processamento de dados em tempo real é essencial para aplicações que exigem resposta imediata, como monitoramento de redes sociais, detecção de fraudes financeiras e IoT (Internet das Coisas).
@@ -702,3 +697,77 @@ Cada abordagem possui suas vantagens e desafios, sendo essencial escolher a estr
 - Permite **cleanup baseado em espaço**.
 
 ### [Anotações da Aula Prática de Kafka](https://github.com/vbs-matheus/PosGraduacao-EngDados/blob/main/02.%20Processamento-de-Fluxos-Discretos-e-Continuos-de-Dados/aulas-praticas/kafka-codes-docker.md)
+
+
+# 📌 Resumo: Apache NiFi
+
+### 🏷️ O que é o NiFi?
+- **Projeto Apache, Open Source**: Ferramenta livre para uso.
+- **Automatiza Fluxos de Dados**: Facilita a integração entre sistemas.
+- **Interface Web**: Configuração intuitiva via navegador.
+- **Gestão Completa**: Controle, monitoramento e feedback dos fluxos.
+- **Rápido Desenvolvimento**: Permite ajustes ágeis.
+
+---
+
+### 🛠️ Funcionalidades do NiFi
+- **Fluxo Completo de Dados**: Da origem ao destino, garantindo rastreabilidade.
+- **Modelo de Programação em Fluxo**: Baseado em processadores que manipulam dados.
+- **Capacidade de Clusters**: Escalabilidade horizontal para grandes volumes.
+- **Segurança**: Criptografia TLS para proteção de dados.
+- **Customização e Configuração**: Plugins (.nar) para ampliar funcionalidades.
+
+---
+
+### 🏗️ Arquitetura do NiFi
+- **Sistema Operacional (OS/Host)**: Base para execução.
+- **JVM (Java Virtual Machine)**: Ambiente para rodar processos.
+- **Web Server**: Interface gráfica para controle dos fluxos.
+- **Flow Controller**: Gere processadores e conexões.
+- **Repositórios**:
+  - **FlowFile Repository**: Metadados dos arquivos em trânsito.
+  - **Content Repository**: Dados reais dos arquivos.
+  - **Provenance Repository**: Histórico de transformações.
+
+📌![Arquitetura Nifi](https://raw.githubusercontent.com/vbs-matheus/PosGraduacao-EngDados/refs/heads/main/imgs/Arquitetura-NoFi.jpg)
+
+
+## **Componentes do Apache NiFi**
+
+### **Web Server**
+- Baseado em HTTP.
+- Usado para controlar visualmente o software e monitorar os eventos que acontecem dentro do NiFi.
+
+### **Flow Controller**
+- Atua como o "cérebro" do NiFi.
+- Controla a execução de extensões e aloca recursos conforme necessário.
+
+### **Extensions**
+- Conjunto de plugins que permitem a interação do NiFi com diferentes sistemas.
+
+---
+
+## **Repositórios no NiFi**
+
+### **FlowFile Repository**
+- Mantém e rastreia o status dos FlowFiles ativos.
+- Armazena informações que ajudam a mover os dados entre sistemas.
+
+### **Content Repository**
+- Armazena os dados em trânsito.
+
+### **Provenance Repository**
+- Guarda dados relacionados à proveniência (origem e trajetória) dos dados que circulam pelo sistema.
+
+---
+
+## **Subprojetos do NiFi**
+
+### **Apache NiFi Registry**
+- Centraliza armazenamento e gerenciamento de recursos compartilhados.
+- Suporta controle de versão e facilita o deploy de templates.
+
+### **MiNiFi**
+- Abordagem complementar ao NiFi.
+- Focado em coleta de dados na origem com baixo consumo de recursos.
+

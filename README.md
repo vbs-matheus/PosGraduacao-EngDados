@@ -1,4 +1,7 @@
-![Brasão da PUC Minas](https://raw.githubusercontent.com/vbs-matheus/PosGraduacao-EngDados/refs/heads/main/imgs/PucMinas-brasao.jpg)
+<div align="center">
+  <img src="https://raw.githubusercontent.com/vbs-matheus/PosGraduacao-EngDados/refs/heads/main/imgs/PucMinas-brasao.jpg" alt="Brasão da PUC Minas" style="width:1000%; height:auto;">
+</div>
+
 # **Pós-graduação em Eng. de Dados | PUC Minas**
 As pastas nesse repositório estão destinadas para as respectivas disciplinas estudadas na graduação.
 
@@ -17,3 +20,7 @@ As pastas nesse repositório estão destinadas para as respectivas disciplinas e
 
 A orientação do processo está disponível via <strong><a href=https://github.com/fabiogjardim/bigdata_docker>respositório</a></strong> do professor <strong><a href=https://www.linkedin.com/in/fjardim/>Fabio Jardim</a></strong>.
      
+## Cronograma de Estudo:
+<div align="center">
+  <img src="https://raw.githubusercontent.com/vbs-matheus/PosGraduacao-EngDados/refs/heads/main/imgs/cronograma-pos.jpg" alt="Cronograma de estudos" style="width:100%; height:auto;">
+</div>
