@@ -771,3 +771,55 @@ Cada abordagem possui suas vantagens e desafios, sendo essencial escolher a estr
 - Abordagem complementar ao NiFi.
 - Focado em coleta de dados na origem com baixo consumo de recursos.
 
+## **Arquiteturas de FCDs e Armazenamento**
+
+### **Ferramentas para Armazenamento de Dados**
+
+- **Bancos baseados em colunas** são os mais utilizados no mercado.
+  - Estrutura adaptável e sem necessidade de schema rígido.
+  - Exemplo: HBase (amplamente utilizado em arquiteturas Big Data).
+- **Redis** é outra opção destacada:
+  - Opera com dados em memória.
+  - Alta velocidade de resposta para consultas rápidas.
+
+### **Pipelines para Processamento de Dados em Tempo Real**
+
+- Estrutura baseada em uma **"camada rápida" (fast layer)**, também conhecida como *Speed Layer*.
+- Pipelines podem ser compostos de formas distintas, ajustadas à necessidade.
+- A entrada de dados pode ser feita via ferramentas como **Apache Flume** ou por **serviços externos**.
+- Objetivo principal: **processamento contínuo e rápido de dados assim que chegam**.
+
+### **Arquitetura Lambda**
+
+- Modelo que combina o melhor de dois mundos:
+  - **Batch Layer**: processamento massivo e posterior dos dados.
+  - **Speed Layer**: resposta rápida com dados recentes.
+  - **Serving Layer**: camada de consulta consolidada para os dados processados.
+
+### **Batch Layer**
+
+- Armazena os dados raw (não processados).
+- Utilizado para processamento posterior e extração de novas informações.
+- Alta latência devido ao volume elevado de dados.
+
+### **Speed Layer**
+
+- Responsável pelo **processamento em tempo real** ou quase real.
+- Foca em pequenas porções de dados novos.
+- Proporciona insights quase imediatos, mesmo que com menor profundidade.
+
+### **Serving Layer**
+
+- Indexa e disponibiliza os dados processados por batch e speed.
+- Suporta **consultas ad-hoc** com baixa latência.
+
+### **Exemplo de Arquitetura Lambda (Diagrama)**
+
+- Entrada de dados com **Apache Flume Agents**.
+- Dados são ingeridos via **Apache Kafka**.
+- Processamento batch com **HDFS + MapReduce** (agendado via Oozie).
+- Processamento em tempo real com **Apache Storm**.
+- Armazenamento final em **HBase**.
+
+---
+---
