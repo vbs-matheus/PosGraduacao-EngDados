@@ -24,7 +24,7 @@ As pastas nesse repositório estão destinadas para as respectivas disciplinas e
 
 A orientação do processo está disponível via <strong><a href=https://github.com/fabiogjardim/bigdata_docker>respositório</a></strong> do professor <strong><a href=https://www.linkedin.com/in/fjardim/>Fabio Jardim</a></strong>.
 
-### ↪ **[03. Python para Engenharia de Dados](https://github.com/vbs-matheus/PosGraduacao-EngDados/tree/anotacoes-novas/02.%20Processamento-de-Fluxos-Discretos-e-Continuos-de-Dados)**
+### ↪ **[03. Python para Engenharia de Dados](https://github.com/vbs-matheus/PosGraduacao-EngDados/tree/main/03_Python_para_Engenharia_de_Dados)**
      
 ## Cronograma de Estudo:
 <div align="center">

@@ -26,6 +26,6 @@
   - Processamento de multithreading e distribuídos
 
 ## **Lista de Múdulos**:
-1. **[Fundamentos da linguagem Python](link.com.br)**
-2. **[Bibliotecas Para Manipulação e Visualização de Dados](link.com.br)**
-3. **[Operações de Processamente Extração de Dados](link.com.br)**
+1. **[Fundamentos da linguagem Python](https://github.com/vbs-matheus/PosGraduacao-EngDados/blob/main/03_Python_para_Engenharia_de_Dados/aulas_praticas/unidade_01.ipynb)**
+2. **[Bibliotecas Para Manipulação e Visualização de Dados](link.com.br)**[TBA]
+3. **[Operações de Processamente Extração de Dados](link.com.br)**[TBA]
