@@ -29,6 +29,7 @@
 
 - **VS Code**
 - **Python 3.1 (ou superior)**
+  - *Pandas*; *NumPy*; *Sqlite3*; *Matplotlib*
 - **Jupyter Notebook**  
 [Orientação de uso dos 3 programas acima juntos](https://code.visualstudio.com/docs/datascience/jupyter-notebooks)
 

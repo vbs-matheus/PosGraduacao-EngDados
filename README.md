@@ -8,7 +8,7 @@ As pastas nesse repositório estão destinadas para as respectivas disciplinas e
 ## Disciplinas Estudadas:
 ### ↪ **[02. Processamento de Fluxos Discretos e Contínuos de Dados (2024)](https://github.com/vbs-matheus/PosGraduacao-EngDados/tree/anotacoes-novas/02.%20Processamento-de-Fluxos-Discretos-e-Continuos-de-Dados)**
 
-#### Softwares Necessários:
+#### **Programas utilizados**:
 <font size="3"> 
 <ul> 
 <li><strong>Docker Desktop</strong> - <a href=https://docs.docker.com/desktop/setup/install/windows-install/>Download</a></li> 
@@ -25,6 +25,20 @@ As pastas nesse repositório estão destinadas para as respectivas disciplinas e
 A orientação do processo está disponível via <strong><a href=https://github.com/fabiogjardim/bigdata_docker>respositório</a></strong> do professor <strong><a href=https://www.linkedin.com/in/fjardim/>Fabio Jardim</a></strong>.
 
 ### ↪ **[03. Python para Engenharia de Dados](https://github.com/vbs-matheus/PosGraduacao-EngDados/tree/main/03_Python_para_Engenharia_de_Dados)**
+  
+#### **Programas utilizados**:
+
+- **VS Code**
+- **Python 3.1 (ou superior)**
+  - *Pandas*; *NumPy*; *Sqlite3*; *Matplotlib*
+- **Jupyter Notebook**  
+[Orientação de uso dos 3 programas acima juntos](https://code.visualstudio.com/docs/datascience/jupyter-notebooks)
+
+- [**SQLite**](https://sqliteonline.com/)
+  
+
+---
+---
      
 ## Cronograma de Estudo:
 <div align="center">
