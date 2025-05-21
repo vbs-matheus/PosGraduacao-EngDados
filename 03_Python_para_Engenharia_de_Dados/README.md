@@ -32,11 +32,10 @@
   - *Pandas*; *NumPy*; *Sqlite3*; *Matplotlib*
 - **Jupyter Notebook**  
 [Orientação de uso dos 3 programas acima juntos](https://code.visualstudio.com/docs/datascience/jupyter-notebooks)
-
 - [**SQLite**](https://sqliteonline.com/)
 
 
 ## **Lista de Unidades**:
 1. **[Fundamentos da linguagem Python](https://github.com/vbs-matheus/PosGraduacao-EngDados/blob/main/03_Python_para_Engenharia_de_Dados/aulas_praticas/unidade_01.ipynb)**
 2. **[Bibliotecas Para Manipulação e Visualização de Dados](https://github.com/vbs-matheus/PosGraduacao-EngDados/blob/main/03_Python_para_Engenharia_de_Dados/aulas_praticas/unidade_02.ipynb)**
-3. **[Operações de Processamente Extração de Dados](link.com.br)**[TBA]
+3. **[Operações de Processamente Extração de Dados](https://github.com/vbs-matheus/PosGraduacao-EngDados/blob/main/03_Python_para_Engenharia_de_Dados/aulas_praticas/unidade_03.ipynb)**

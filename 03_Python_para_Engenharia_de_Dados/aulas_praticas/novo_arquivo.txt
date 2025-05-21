@@ -1,0 +1,7 @@
+Aula de manipulação de arquivos
+Escrevendo dados no arquivo
+Criando uma nova linhas
+Adicionando mais uma linha, mas com o append
+João foi à aula
+Maria não foi à aula
+José foi encontrar a namorada
