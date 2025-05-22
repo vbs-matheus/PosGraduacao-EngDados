@@ -1,0 +1,30 @@
+[
+    {
+        "jogador": "Everson",
+        "salario": 150000.00,
+        "datanascimento": "1995-10-01",
+        "time": "Atlético",
+        "posicao": "Goleiro"
+    },
+    {
+        "jogador": "Incrível Hulk",
+        "salario": 850000.00,
+        "datanascimento": "1990-10-12",
+        "time": "Atlético",
+        "posicao": "Atacante"
+    },
+    {
+        "jogador": "Rafael Cabral",
+        "salario": 100000.00,
+        "datanascimento": "1982-04-11",
+        "time": "Cruzeiro",
+        "posicao": "Goleiro"
+    },
+    {
+        "jogador": "Bruno Rodrigues",
+        "salario": 150000.00,
+        "datanascimento": "1983-09-10",
+        "time": "Cruzeiro",
+        "posicao": "Atacante"
+    }
+]
