@@ -30,7 +30,7 @@ A orientação do processo está disponível via <strong><a href=https://github.
 
 - **VS Code**
 - **Python 3.1 (ou superior)**
-  - *Pandas*; *NumPy*; *Sqlite3*; *Matplotlib*
+  - *Pandas*; *NumPy*; *Sqlite3*; *Matplotlib*; *Requests*; *Threading*
 - **Jupyter Notebook**  
 [Orientação de uso dos 3 programas acima juntos](https://code.visualstudio.com/docs/datascience/jupyter-notebooks)
 
