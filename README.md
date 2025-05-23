@@ -37,19 +37,8 @@ A orientação do processo está disponível via <strong><a href=https://github.
 - [**SQLite**](https://sqliteonline.com/)
   
 ### ↪ **[04. Governança de Dados](https://github.com/vbs-matheus/PosGraduacao-EngDados/tree/main/04_Governanca_de_Dados)**
-  
-#### **Programas utilizados**:
-
-- **VS Code**
-- **Python 3.1 (ou superior)**
-  - *Pandas*; *NumPy*; *Sqlite3*; *Matplotlib*; *Requests*; *Threading*
-- **Jupyter Notebook**  
-[Orientação de uso dos 3 programas acima juntos](https://code.visualstudio.com/docs/datascience/jupyter-notebooks)
-
-- [**SQLite**](https://sqliteonline.com/)
-  
-
-
+   
+   
 ---
 ---
      

@@ -20,6 +20,6 @@ Faremos uma introdução ao DAMA-DMBOK®, iremos explorar de forma introdutória
   
 ## **UNIDADES DE ENSINO/ CONTEÚDO PROGRAMÁTICO**
 **Unidade 1** – [Introdução à Governança de Dados](https://github.com/vbs-matheus/PosGraduacao-EngDados/blob/main/04_Governanca_de_Dados/aulas/unidade_01.md)  
-**Unidade 2** – [Operacionalização da Governança de Dados](link.com.br)[TBA]  
+**Unidade 2** – [Operacionalização da Governança de Dados](https://github.com/vbs-matheus/PosGraduacao-EngDados/blob/main/04_Governanca_de_Dados/aulas/unidade_02.md)  
 **Unidade 3** – [Trabalhando a Cultura e a Transformação Organizacional](link.com.br)[TBA]  
 **Unidade 4** – [Introdução ao DAMA-DMBOK®](link.com.br)[TBA]  
